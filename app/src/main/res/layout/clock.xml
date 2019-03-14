@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/info"
+        android:background="@color/md_blue_grey_500"
+        android:alpha="0.7"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Thời gian đã di chuyển"
+            android:textColor="#000" />
+
+        <Chronometer
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_medium"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_below="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/button_style"
+        android:backgroundTint="@color/md_red_600"
+        android:drawableLeft="@drawable/stop"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Stop"
+        android:textColor="#FFF" />
+
+</RelativeLayout>
