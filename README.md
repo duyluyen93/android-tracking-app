@@ -4,3 +4,5 @@ Tính năng chính:
 - Xem lại lịch sử di chuyển
 - Hiển thị đường đi ngắn nhất
 - Theo dõi phương tiện với các user đăng ký làm tài xế
+ # APK demo
+ https://www.mediafire.com/file/thtnwikc62cl6t7/tracking-app.apk/file
